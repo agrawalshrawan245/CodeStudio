@@ -20,18 +20,18 @@ public class me {
             //Swipe first and last number of heap, so that maximum number goes to the last.
             arr[0]=arr[0]+arr[i]-(arr[i] = arr[0]);
             int j = 0;
-            int k = 0;
+            int j_max = 0;
             // Arrange the top node as it is not maximum now, till it finds suitable place.
             // In max hip small number moves down until needed.
             
             // Here you need to find the max number among node and it's two child.
             // And then change place of node with the new node.
             while(j < i){
-                if(2 * j + 1 < i && arr[k] < arr[2 * j + 1]) k = 2 * j + 1;
-                if(2 * j + 2 < i && arr[k] < arr[2 * j + 2]) k = 2 * j + 2;
-                if(j == k) break;
-                arr[k]=arr[k]+arr[j]-(arr[j] = arr[k]);
-                j = k;
+                if(2 * j + 1 < i && arr[j_max] < arr[2 * j + 1]) j_max = 2 * j + 1;
+                if(2 * j + 2 < i && arr[j_max] < arr[2 * j + 2]) j_max = 2 * j + 2;
+                if(j == j_max) break;
+                arr[j_max]=arr[j_max]+arr[j]-(arr[j] = arr[j_max]);
+                j = j_max;
             }
         }
 
