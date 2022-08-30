@@ -23,6 +23,9 @@ public class me {
             int k = 0;
             // Arrange the top node as it is not maximum now, till it finds suitable place.
             // In max hip small number moves down until needed.
+            
+            // Here you need to find the max number among node and it's two child.
+            // And then change place of node with the new node.
             while(j < i){
                 if(2 * j + 1 < i && arr[k] < arr[2 * j + 1]) k = 2 * j + 1;
                 if(2 * j + 2 < i && arr[k] < arr[2 * j + 2]) k = 2 * j + 2;
