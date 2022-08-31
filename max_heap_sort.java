@@ -89,6 +89,7 @@ public class me {
 
         for(int i = 0; i < len; i ++) System.out.print(arr[i] + "  ");
         // Result:- 0  2  3  4  6  6  7  8  9  11  13  16  44
+        // This function can be further improved and heap sort can be performed only with help of remove function. You can check it from GFG.
     }
 }
 
