@@ -1,6 +1,4 @@
-# CodeStudio-This is a sample readme, I will update shortly.
-
-Here is the list of all the codes that I plan to impliment in this project.
+# CodeStudio.
 
 ## Table of Contents
 
@@ -11,38 +9,16 @@ Here is the list of all the codes that I plan to impliment in this project.
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+In this project I want to implement all the codes that are important as a programmer or from interview point of view. It will include various mainstream algorithms or algorithms which belongs to the important category.
+
+There are three folders Java, C++ and Python each has codes written in that language. You can open this folder and check the corresponding readme for more vivid detail about the project.
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+You need to have a basic knowledge of C++, Java and Python to start working on these algorithm or for understanding them. If you are okay with this than please use git clone to download and start working on this repository.
 
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
+Personally I would be very happy to help anyone out there so please use it as your own repository and feel free to add something if you get some idea about any new problem. And help others like you.
 
 ## Usage <a name = "usage"></a>
 
-Add notes about how to use the system.
+You can use this repository for learning purpose or before interview you can use it for practice and brush up your knowledge.
