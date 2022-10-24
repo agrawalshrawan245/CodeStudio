@@ -1,4 +1,4 @@
-public class N03Huffman_coding {   
+public class T03Huffman_coding {   
     
     static huffmannode []arr = new huffmannode[1000000];
 

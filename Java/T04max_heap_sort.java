@@ -1,6 +1,6 @@
 //Method number 1
 
-public class N04max_heap_sort {    
+public class T04max_heap_sort {    
 
     public static void main(String[] args){
         int arr[] = {0,3,2,6,44,7,4,6,8,9,16,13,11};
@@ -47,7 +47,7 @@ public class N04max_heap_sort {
 
 //Method number 2
 
-public class N04max_heap_sort {    
+public class T04max_heap_sort {    
     static void add(int []arr, int j){
         //Simple process is in max heap maximum number from the bottom moves up, till it finds a suitable place.
         while(j > 0 && arr[j] > arr[(j-1)/2]) {
