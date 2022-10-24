@@ -1,4 +1,4 @@
-public class N02BITree {
+public class T02BITree {
     static int bit[] = new int[10000];
     static int len;
     void update(int x, int num){
@@ -26,7 +26,7 @@ public class N02BITree {
     }
     public static void main(String[] args){
         int arr[] = {1,3,2,6,44,7,4,6,8,9,16,13,11};
-        N02BITree bitme = new N02BITree();
+        T02BITree bitme = new T02BITree();
         bitme.initializeBIT(arr);
         System.out.println(bitme.getSum(4));
     }

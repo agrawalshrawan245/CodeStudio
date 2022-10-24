@@ -1,5 +1,7 @@
-temp.java
-temp.py
-temp.cpp
+test.java
+test.py
+test.ipynb
+test.cpp
+*.class
 /java/*.class
 SAMPLE.md

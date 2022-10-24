@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class N01AVLTree {
+public class T01AVLTree {
     Node head;
 
     Node rightRotate(Node x){
@@ -100,7 +100,7 @@ public class N01AVLTree {
         preOrderTraversal(node.right);
     }
     public static void main(String[] args){
-        N01AVLTree tree = new N01AVLTree();
+        T01AVLTree tree = new T01AVLTree();
         // for(int j = 1; j <= 100000; j++){
         //     for(int i = 0; i < j; i++){
         //         tree.head = tree.insert(tree.head, (int)(Math.random()*100000000));

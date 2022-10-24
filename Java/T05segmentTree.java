@@ -1,4 +1,4 @@
-public class N05segmentTree {
+public class T05segmentTree {
     static int segment[] = new int[10000];
     static int len;
     void update(int x, int num){
@@ -22,7 +22,7 @@ public class N05segmentTree {
     
     public static void main(String[] args){
         int arr[] = {1,3,2,6,44,7,4,6,8,9,16,13,11};
-        N05segmentTree segmentree = new N05segmentTree();
+        T05segmentTree segmentree = new T05segmentTree();
         segmentree.initializeTree(arr);
         System.out.println(segmentree.getSum(3,6));
         segmentree.update(4, 24);
