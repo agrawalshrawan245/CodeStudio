@@ -4,6 +4,8 @@
 
 Here one point to notice is that you need iterator to iterate throught the link list. And for more information you can check out this youtube video [09 LinkedList & The Iterator](https://www.youtube.com/watch?v=kOcLQdKl8x0&ab_channel=AlexSmith). Nicely explained how to use these iterators.
 
+List class has two child class namely ArrarList and LinkList. It is sometimes confusing to think which is better and when to use it, and to check in detail about these see [Difference between ArrayList and LinkedList](https://javagoal.com/difference-between-arraylist-and-linkedlist/#:~:text=Implementation%20of%20both%20classes%20are%20the%20first%20difference,Serializable%2C%20Deque%20interface%20and%20extends%20the%20AbstractList%20class.)
+
 ```java
 import java.util.LinkedList;
 import java.util.Iterator;
