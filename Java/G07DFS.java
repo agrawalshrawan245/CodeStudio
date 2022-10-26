@@ -16,7 +16,7 @@ public class G07DFS {
         edge.get(a).add(b);
     }
 
-    void bfs(int a) {
+    void dfs(int a) {
         boolean visited[] = new boolean[v];
 
         LinkedList<Integer> q = new LinkedList<Integer>();
@@ -51,7 +51,7 @@ public class G07DFS {
         g.add(3, 4);
         g.add(4, 5);
 
-        g.bfs(2);
+        g.dfs(2);
     }
 
 }
