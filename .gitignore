@@ -5,3 +5,4 @@ test.cpp
 *.class
 /java/*.class
 SAMPLE.md
+.gitignore
