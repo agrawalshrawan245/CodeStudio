@@ -14,6 +14,17 @@ class PersonComparator implements Comparator<Person> {
 
 }
 
+// Or for Arrays
+// From :- https://youtu.be/P1-N5Zt--BY
+class Person implements Comparable<Person> {
+
+    @Override
+    public int compareTo(Person o2) {
+        return this.age - o2.age;
+    }
+
+}
+
 ```
 
 ## Functions

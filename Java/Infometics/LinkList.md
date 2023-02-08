@@ -10,7 +10,7 @@ List class has two child class namely ArrarList and LinkList. It is sometimes co
 import java.util.LinkedList;
 import java.util.Iterator;
 
-LinkedList<data_type> list = new LinkedList<data_type>();
+LinkedList<data_type> ll = new LinkedList<data_type>();
 
 Iterator<String> it = ll.iterator();
 
@@ -34,6 +34,12 @@ for (String a : ll) {
 | get(int i)           | Return the ith element of a list                                                                                  | E           |
 | set(int i, Object o) | Replace the i-th element of the list with element o (the return value returns the element before the replacement) | E           |
 | remove(int i)        | Delete the ith element in the list (the return value returns the deleted element)                                 | E           |
+
+### To use linked list as stack or queue
+
+1. addFirst(def), addLast
+2. removeFrist(def), removeLast
+3. getFirst(), getLast
 
 ### Methods for primary use
 
