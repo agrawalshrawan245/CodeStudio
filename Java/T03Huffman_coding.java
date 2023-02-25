@@ -52,7 +52,7 @@ public class T03Huffman_coding {
     public static void main(String[] args){
         int size = 6;
         char ch[] = { 'a', 'b', 'c', 'd', 'e', 'f' };
-        int freq[] = { 5, 9, 12, 13, 16, 45 }; 
+        int freq[] = { 5, 9, 12, 13, 16, 45 };
         for(int i = 0; i < size; i++) arr[i] = new huffmannode(freq[i], ch[i]);
 
         //create heap
@@ -80,8 +80,6 @@ public class T03Huffman_coding {
             arr[i] = temp;
             add(arr, i);
             i++;
-            
-
         }
 
         print(arr[0], "");

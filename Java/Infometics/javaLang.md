@@ -6,21 +6,34 @@
 
 ## Strings
 
-| Method           | Description                                |
-| ---------------- | ------------------------------------------ |
-| str.length()     | returns length of str                      |
-| str.equals(str2) | return true if str = str2 ottherwise false |
+| Method                | Description                                |
+| --------------------- | ------------------------------------------ |
+| str.length()          | returns length of str                      |
+| toCharArray()         | returns character array                    |
+| str.comparesTo(str2)  | returns an integer measure of compare      |
+| str.equals(str2)      | return true if str = str2 ottherwise false |
+| str.split(" ")        | split the string at spaces                 |
+| new String(charArray) | returns char array                         |
 
 | Method                    | Description                            |
 | ------------------------- | -------------------------------------- |
 | str.charAt(position)      | returns char at that position          |
 | str.indexOf(str2)         | retuns index of the substring 2 in str |
 | str.substring(pos1, pos2) | returns substring from pos1 to pos2    |
+| str.contains(str2)        | return true or false                   |
 
 ## Arrays
 
 Arrays.sort(arr, (a,b)-> a.no - b.no)
-Arrays.binerySearch(arr, num)
+Arrays.toString(arr)
+Arrays.equals(arr1, arr2)
+Arrays.asList(arr)
+
+```java
+ArrayList<String> list = new ArrayList<>();
+list.toArray();
+```
+
 
 ## Math
 
