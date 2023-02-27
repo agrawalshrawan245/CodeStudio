@@ -28,12 +28,12 @@ Arrays.sort(arr, (a,b)-> a.no - b.no)
 Arrays.toString(arr)
 Arrays.equals(arr1, arr2)
 Arrays.asList(arr)
+Arrays.binarySearch(arr, key)
 
 ```java
 ArrayList<String> list = new ArrayList<>();
 list.toArray();
 ```
-
 
 ## Math
 

@@ -9,3 +9,4 @@
 | Collections.min(List a)                           | Return the smallest element in a       |
 | Collections.max(List a)                           | Return the largest element in a        |
 | Collections.shuffle(List a)                       | Shuffle the sequence of elements in a  |
+| Collections.binarySearch(list, key)               |                                        |

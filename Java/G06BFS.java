@@ -44,7 +44,6 @@ public class G06BFS {
         }
     }
 
-    
 
     public static void main (String args[]){
         G06BFS g = new G06BFS(4);
