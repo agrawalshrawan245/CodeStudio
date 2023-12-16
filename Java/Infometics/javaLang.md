@@ -33,6 +33,10 @@ Arrays.binarySearch(arr, key)
 ```java
 ArrayList<String> list = new ArrayList<>();
 list.toArray();
+
+String[] array = { "apple", "banana", "orange" };
+// By default array list is returned.
+List<String> list = Arrays.asList(array);
 ```
 
 ## Math
