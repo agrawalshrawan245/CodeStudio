@@ -1,4 +1,17 @@
-# java.lang.\* class
+# Collections
+
+## Functions
+
+| Method                                            | Explanation                            |
+| ------------------------------------------------- | -------------------------------------- |
+| Collections.sort(List a, (a,b) -> b.compareTo(a)) | Sort the elements of a                 |
+| Collections.reverse(List a)                       | Reverse the order of the elements of a |
+| Collections.min(List a)                           | Return the smallest element in a       |
+| Collections.max(List a)                           | Return the largest element in a        |
+| Collections.shuffle(List a)                       | Shuffle the sequence of elements in a  |
+| Collections.binarySearch(list, key)               |                                        |
+
+## java.lang.\* class
 
 1. String
 2. Arrays
@@ -9,11 +22,11 @@
 | Method                | Description                                |
 | --------------------- | ------------------------------------------ |
 | str.length()          | returns length of str                      |
-| toCharArray()         | returns character array                    |
+| str.toCharArray()     | returns <Character> array                  |
 | str.comparesTo(str2)  | returns an integer measure of compare      |
 | str.equals(str2)      | return true if str = str2 ottherwise false |
 | str.split(" ")        | split the string at spaces                 |
-| new String(charArray) | returns char array                         |
+| new String(charArray) | returns <Character> array                  |
 
 | Method                    | Description                            |
 | ------------------------- | -------------------------------------- |

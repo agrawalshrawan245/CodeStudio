@@ -10,6 +10,26 @@
 6. set(Object)
 7. remove()
 
+## Iterator for Maps
+
+```java
+Iterator<Map.Entry<Integer, String>> iterator = treeMap.entrySet().iterator();
+
+while (iterator.hasNext()) {
+    Map.Entry<Integer, String> entry = iterator.next();
+    int key = entry.getKey();
+    String value = entry.getValue();
+}
+
+// ----------------------- OR --------------------------
+
+for (Map.Entry<Integer, String> entry : treeMap.entrySet()) {
+    int key = entry.getKey();
+    String value = entry.getValue();
+}
+
+```
+
 ```java
 import java.util.LinkedList;
 import java.util.Iterator;
