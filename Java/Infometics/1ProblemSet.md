@@ -4,6 +4,7 @@
 
 -   [Largest area rectangle](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
 -   [Sliding window](https://leetcode.com/problems/sliding-window-maximum/submissions/251083927/)
+-   [Divide nodes into max groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)
 -   https://leetcode.com/problems/find-maximum-non-decreasing-array-length/description/
 -   https://leetcode.com/problems/number-of-digit-one/description/
 -   https://leetcode.com/problems/trapping-rain-water/submissions/
