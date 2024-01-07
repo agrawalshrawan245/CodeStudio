@@ -11,9 +11,10 @@
 -   https://leetcode.com/problems/container-with-most-water/description/
 -   https://leetcode.com/problems/maximum-tastiness-of-candy-basket/description/ –revision
 -   https://leetcode.com/problems/median-of-two-sorted-arrays/description/
--   Design free slot meeting time suggestion like teams
--   N queens problem
--   Longest common subsequence
+-   [Design free slot meeting time suggestion like teams]()
+-   [N queens problem]()
+-   [Longest common subsequence]()
+-   [Maximum sum of sub rectangle]()
 
 ## Good problems
 
@@ -31,7 +32,7 @@
 -   https://leetcode.com/problems/car-fleet/submissions/
 -   https://leetcode.com/problems/search-a-2d-matrix/
 -   https://leetcode.com/problems/super-egg-drop/
--   Count all the possible rectangles from given points, which are parallel to x and y axis.
+-   [Count all the possible rectangles from given points, which are parallel to x and y axis.]()
 -   https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/description/
 
 ## Difficult problems
