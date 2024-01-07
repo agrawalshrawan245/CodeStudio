@@ -7,10 +7,10 @@
 import java.text.*;
 
 // Number to unix time
-Date d = new Date(1600334000000);
+Date d = new Date(1600334000000L);
 
 // date formatter
-SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss w");
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss E");
 // *** format convert from int long date to String ***
 String date = sdf.format(new Date());
 // *** parse convert string to Date ***
@@ -27,3 +27,5 @@ try {
 }
 
 ```
+
+(y -> year), (M -> Momnth), (m -> minute), (d -> day), (H and h for 24 hour and 12 hour), (s -> second), (E -> week Name), (a -> AM/PM)
