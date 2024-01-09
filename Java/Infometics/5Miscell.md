@@ -29,3 +29,25 @@ try {
 ```
 
 (y -> year), (M -> Momnth), (m -> minute), (d -> day), (H and h for 24 hour and 12 hour), (s -> second), (E -> week Name), (a -> AM/PM)
+
+## Conversions
+
+### Int to integer
+
+```java
+int a = 4;
+Integer b = Integer.valueOf(a);
+a = b.intValue();
+
+Float c = b.floatValue();
+char d = (char) b.intValue();
+String s = "123";
+b = Integer.parseInt(s);
+```
+
+### ArrayList to array
+
+```java
+Character[] ch2 = ch.toArray(new Character[0]);
+ch = Arrays.asList(ch2);
+```
