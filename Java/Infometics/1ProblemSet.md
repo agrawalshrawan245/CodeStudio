@@ -14,7 +14,7 @@
 -   [Design free slot meeting time suggestion like teams]()
 -   [N queens problem]()
 -   [Longest common subsequence]()
--   [Maximum sum of sub rectangle]()
+-   [Maximum sum of sub rectangle](https://www.geeksforgeeks.org/problems/maximum-sum-rectangle2948)
 
 ## Good problems
 
